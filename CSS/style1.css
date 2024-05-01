@@ -1,0 +1,88 @@
+* {
+    color: rgb(25, 4, 8);
+}
+
+h1 {
+    background-color: blueviolet;
+}
+
+#login {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#signup {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.upvote {
+    background-color: blue;
+    color: white;
+}
+
+div p {
+    color: red;
+}
+
+p+h3 {
+    text-decoration: underline;
+}
+
+span>button {
+    font-family: cursive;
+    /* font-size: large; */
+    text-align: center;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    color: blue;
+    background-color: violet;
+}
+
+input[type="password"] {
+    color: black;
+    background-color: pink;
+}
+
+.upvote:hover {
+    background-color: gold;
+    color: darkgreen;
+}
+
+button:active {
+    color: yellow;
+    background-color: chartreuse;
+}
+
+input[type="radio"]:checked+label {
+    font-weight: bolder;
+    color: olive;
+}
+
+div:nth-of-type(2n) {
+    background-color: blue;
+    color: white;
+}
+
+h1::first-letter {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+h3::first-line {
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::selection {
+    font-weight: bolder;
+    text-decoration: solid;
+}
+
+nav ul li {
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: italic;
+}

@@ -1,0 +1,105 @@
+h1 {
+    text-align: center;
+    color: rgb(29, 1, 5);
+    font-weight: bold;
+}
+
+h1::first-letter {
+    color: gray;
+    font-weight: bold;
+}
+
+.box {
+    height: 500px;
+    width: 800px;
+    border: 5px solid black;
+    border-radius: 10px;
+    /* text-align: center;
+    font-size: 5em; */
+    background-color: pink;
+    margin: 10px auto;
+    animation: colorlism 2s linear 3s infinite normal;
+}
+
+.sum {
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    /* margin: 50px auto; */
+
+    /* animation-name: shubham;
+    animation-duration: 0s;
+    animation-timing-function: ease-in;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation: withness 2s linear 3s infinite normal;
+}
+
+/* @keyframes shunham {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 50px;
+    }
+} */
+@keyframes colorlism {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: pink;
+    }
+}
+
+@keyframes withness {
+    0% {
+        top: 0px;
+        left: 0px;
+        /* bottom: 500px; */
+        background-color: yellow;
+    }
+
+    25% {
+        top: 500px;
+        left: 0px;
+        /* right: 800px; */
+        background-color: blue;
+    }
+
+    50% {
+        top: 800px;
+        left: 500px;
+        /* top: 500px; */
+        background-color: red;
+    }
+    75%{
+        top: 800px;
+        left: 500px;
+        /* top : 500px; */
+        /* right: 500px; */
+        background-color: red;  
+    }
+
+    100% {
+        top: 0px;
+        left: 300px;
+        /* left: 880px; */
+        background-color: pink;
+    }
+}

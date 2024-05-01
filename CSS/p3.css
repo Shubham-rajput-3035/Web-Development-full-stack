@@ -1,0 +1,41 @@
+#outer {
+    height: 800px;
+    width: 500px;
+    background-color: rgb(241, 241, 242);
+    border: 5px solid black;
+    margin: 5px auto;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+h1::first-letter{
+    color: blue;
+}
+
+.inner {
+    height: 150px;
+    width: 150px;
+    /* color: black; */
+    /* font-weight: bold; */
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+
+}
+
+#red {
+    background-color: red;
+    margin-top: 20px;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}

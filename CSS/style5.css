@@ -1,0 +1,127 @@
+#outer {
+    /* color: rgba(red, green, blue, alpha); */
+    background-color: rgba(117, 111, 42, 0.98);
+    height: 450px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #260409;
+    /* color: rgba(240, 229, 229 1); */
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#out {
+    height: 450px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.in {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* background-color: hsl(351, 26%, 21%); */
+    background-color: red;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    background-color: #260409;
+    color: white;
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: olive;
+    color: blue;
+    border: 10px solid grey;
+    border-radius: 50%;
+    /* transition-delay: 1s; */
+    /* transition-duration: 1s; */
+    /* transition: 1s 1s; */
+    /* transition: 2s ease-in-out 1s; */
+    transition: width 2s ease-in 0.5s;
+}
+
+#Box {
+    height: 800px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: darkslategray;
+}
+
+.rotate {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: pink;
+    transform: rotate(45deg);
+}
+
+.scale {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: #ff0000;
+    box-shadow: 10px 10px 10px yellow;
+    transform: scale(1);
+    /* transform: scaleX(1.5s); */
+    /* transform: scaleY(1.5); */
+}
+
+.translate {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: purple;
+    /* transform: translate(50px 50px); */
+    /* transform: translateX(10px); */
+    transform: translateY(10px);
+}
+
+.skew {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: green;
+    transform: skew(30deg);
+}

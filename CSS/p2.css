@@ -1,0 +1,97 @@
+h1 {
+    font-family: 'Courier New';
+    color: #1b74e4;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.userbtn {
+    background-color: aqua;
+}
+
+#myid {
+    color: green;
+}
+
+h2 {
+    color: pink;
+}
+
+#greet {
+    color: yellow;
+}
+
+.myclass {
+    color: brown;
+}
+
+div p {
+    background-color: black;
+}
+
+.para {
+    background-color: blue;
+}
+
+p {
+    background-color: green;
+}
+
+div.greetDiv.greet {
+    color: green;
+}
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+.greetDiv .greet {
+    color: red;
+}
+
+/* Assigment Paper 2  */
+#main Topic {
+    color: blue;
+}
+
+/* *{
+    text-align: center;
+} */
+#center {
+    text-align: center;
+}
+
+h1 h3 h5 {
+    font-style: geogia italic;
+}
+
+.center {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n+1) {
+    background-color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+#yes:checked+label {
+    color: darkgreen;
+    font-weight: bolder;
+}

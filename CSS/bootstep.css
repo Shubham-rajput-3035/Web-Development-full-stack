@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/* .card {
+    height: 8px;
+    width: 8px;
+    border: 2px solid green;
+    margin: 1px;
+    padding: 1px;
+
+} */
+/* .raw {
+    text-align: center;
+    justify-content: space-between;
+} */

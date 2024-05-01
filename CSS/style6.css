@@ -1,0 +1,53 @@
+ div {
+     height: 100px;
+     width: 100px;
+     margin: 20px auto;
+     text-align: center;
+     border: 5px solid black;
+     /* border-radius: 10px; */
+     background-color: skyblue;
+     display: inline-block;
+ }
+
+ #Static {
+     background-color: green;
+     position: static;
+     top: 100px;
+     left: 100px;
+ }
+
+ #reletive {
+     background-color: yellow;
+     position: relative;
+     top: 100px;
+     left: 100px;
+ }
+
+ #absolute {
+     background-color: blue;
+     position: absolute;
+     top: 100px;
+     left: 100px;
+ }
+
+ #fixed {
+     background-color: pink;
+     position: fixed;
+     top: 100px;
+     left: 100px;
+ }
+
+ p {
+     background-color: pink;
+     color: black;
+ }
+
+ #image {
+     height: 500px;
+     width: 500px;
+     margin: 10px auto;
+     border: 5px solid red;
+     background-image: url(nature.avif);
+     background-size: cover;
+     display: block;
+ }

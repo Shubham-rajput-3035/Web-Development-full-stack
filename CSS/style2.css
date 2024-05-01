@@ -1,0 +1,13 @@
+h1 {
+    background-color: yellow;
+}
+
+h2 {
+    /* background-color: yellow; */
+    /* color: rgb(28, 15, 2) !important; */
+    color: blue !important;
+}
+
+.ram:hover {
+    color: rgb(4, 4, 32);
+}
