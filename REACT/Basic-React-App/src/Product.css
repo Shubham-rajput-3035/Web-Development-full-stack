@@ -1,0 +1,15 @@
+/* * {
+  background-color: black;
+} */
+
+.product {
+  border: 2px solid pink;
+  border-radius: 25px;
+  background-color: rgb(141, 31, 31);
+  color: white;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  /* padding: 25px; */
+  height: 220px;
+  width: 180px;
+}
