@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Arrays</title>
+</head>
+
+<body>
+    <h1>String</h1>
+    <p>
+        The String object is used to represent and manipulate a sequence of characters.
+
+        Description
+        Strings are useful for holding data that can be represented in text form. Some of the most-used operations on
+        strings are to check their length, to build and concatenate them using the + and += string operators, checking
+        for the existence or location of substrings with the indexOf() method, or extracting substrings with the
+        substring() method.
+
+        Creating strings
+        Strings can be created as primitives, from string literals, or as objects, using the String() constructor:
+
+        JS
+        Copy to Clipboard
+
+        const string1 = "A string primitive";
+        const string2 = 'Also a string primitive';
+        const string3 = `Yet another string primitive`;
+        JS
+        Copy to Clipboard
+    
+
+        const string4 = new String("A String object");
+        String primitives and string objects share many behaviors, but have other important differences and caveats. See
+        "String primitives and String objects" below.
+
+        String literals can be specified using single or double quotes, which are treated identically, or using the
+        backtick character `. This last form specifies a template literal: with this form you can interpolate
+        expressions. For more information on the syntax of string literals, see lexical grammar.
+
+        Character access
+        There are two ways to access an individual character in a string. The first is the charAt() method:</p>
+    <script src="app1.js"></script>
+</body>
+
+</html>
