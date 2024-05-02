@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/Public/style.css">
+  </head>
+
+  <!-- <%- include("foldername/file name.ejs") %> -->
+  <body>
+      <h2>This page belongs to @<%= Data.name %></h2>
+    <!-- <h2>This page belongs to @<%= Username %> </h2> -->
+    <button>Follow</button>
+    <button>Message</button>
+    <!-- 
+<h3>Accout that follow you: </h3>
+<ul>
+    <% for (let name of follower ) {%>
+        <li><%= name %></li>
+        <% }%>
+</ul> -->
+
+    <p>
+      Followers : <%= Data.followers %> &nbsp;&nbsp;&nbsp;&nbsp; Following : <%=
+      Data.following %>
+    </p>
+    <hr />
+
+    <% for (let post of Data.posts ) {%>
+    <img src="<%=post.image%>" alt="some image" />
+
+    <p>
+      Like : <%= post.likes %> &nbsp;&nbsp;&nbsp;&nbsp; Comment : <%=
+      post.comments %>
+    </p>
+    <% }%>
+  </body>
+</html>
